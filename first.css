@@ -1,0 +1,10 @@
+
+body{height:100%;
+font-family:"Open Sans", sans-serif;
+color:gray}
+ui{font-style: italic;color:blue}
+h1{font-size: 40px;}
+h2{font-size:50px;}
+p{font-size:20px;color:black;line-height:2}
+img{max-width:50%}
+summary{color:red}
