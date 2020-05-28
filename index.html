@@ -1,41 +1,142 @@
 <!DOCTYPE html>
 <html lang="kr">
-    <head>
-        <title>My Life</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    <style>
-        li{display:inline}
-        a:link{color:blue}
-        a:hover{color:pink}
-        a:visited{color:purple}
-        div:first-letter{color:teal}
-    </style>
-    </head>
-    <body>
-        <div class="menu">
-            <ul>
-                <li><a href="https://blog.naver.com/sunm1121">Events|</a></li>
-                <li><a href="https://www.16personalities.com/enfj-personality">About Me|</a></li>
-                <li><a href="https://blog.naver.com/sunm1121">Contact</a></li>
-            </ul>
+<title>Sunmin Yi</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: purple;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: powderblue;
+    }
+
+    a:visited {
+        color:violet;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">character</a> <br>
+                <a href="#singer">singer</a> <br>
+                <a href="#movie">movie</a> <br>
+                <a href="#con">contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to Sun's website! Have fun </h2>
+
+        <!-- 위 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b>Sunmin's TMI </b></h1>
+            <h1 class="xxxlarge colorname" id="character"><b>Sun's favorite things</b></h1>
+            <hr style="width:80%; border:5px solid lightsalmon; float: left; clear: both; "> <br>
         </div>
-        <h1 class="name">Sunmin Yi</h1>
-        <h2 class="caption">Sungshin for everybody*</h2>
-        <h2 class="caption">*Welcome to my world</h2>
-        <div class="uni-image">
-            <image src="me.jpg"  alt="일상" class="img-fluid"></image>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="티거 배경화면.jpg" style="width:100%" alt="긍정왕 티거">
+                <img src="ewewe.gif" style="width:100%" alt="주체적인 여성 엘사">
+                <img src="IMG_0196.jpg" style="width:100%" alt="어린 하울">
+            </div>
+
+            <div class="half">
+                <img src="디즈니 배경화면.jpg" style="width:100%" alt="영화 제작사">
+                <img src="03.jpg" style="width:100%" alt="투모로우바이투게더">
+                <img src="d.jpg" style="width:100%" alt="라이언킹 영화">
+            </div>
         </div>
-        <div class="text">
-            <h2>Welcome to My life</h2>
-            <span class="caption">Hello there!</span>
-            <p><bold>저는 융합보안공학과에 재학중인 20학번 이선민입니다. MBTI는 ENFJ로 정의로운 사회운동가형이라고 하네요! 대한민국에는 1%정도밖에 없는 희귀한 mbti형이라고 합니다. 혹시 저와 같은 enjf시라면 꼭 알려주세요~!ㅎㅎ</bold></p>
+
+        <!-- 가수 -->
+        <div class="bigbox" id="singer" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>loving my singer</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <p>투모로우바이투게더 입덕부정기</p>
+            <p><b>투모로우바이투게더 태현을 특히 좋아합니다.</b><br>  원래는 연준이 누난 너무 예뻐를 추는 걸 보고 투바투에 관심을 갖게 됐는데이제는 태현이가 문을 막네요
+            </p>
         </div>
-        <br> 
-        <div class="paint">
-            <h1>My works</h1>
-            <img src=foodpic.jpg alt="맛있는거 좋아해요" class="img-fluid">
-            <p>이 사진은 제가 직접 찍은 고르곤졸라 파니니 사진입니다. 맛있는거 먹으러 다니는 거 좋아하고 집 주변에 안 가본 카페는 거의 없는 것 같아요.<br> 그렇지만 당연히 집 주변 카페보다 인스타나 블로그의 유명한 예쁜 카페들 가는 걸 더 선호합니다. 지금은 자제하고 있어서 좀 many 슬프네요,,</p>
-         </div>
-    </body>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="movie" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>movie</b></h1>
+            <hr style="width:80%; border:5px solid black; float: left; clear: both; "> <br>
+            <p>저는 동심의 세계를 탐험하는 걸 굉장히 좋아합니다</p>
+            <p>디즈니 영화를 굉장히 좋아하고 라이언킹은 몇 번을 봤는지 모르겠습니다.
+            </p>
+            <p><b>방학 때 더 발전시켜오겠습니다. 할 게 정말 많네요..!</b></p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>contact</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-4255-0000</li>
+                <li><a href="https://mail.google.com/mail/u/0/?tab=rm#inbox">sunrise1131@gmail.com</a></li> <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 이선민 </p>
+
+                </footer>
+
+
+
+
+</body>
+
 </html>
